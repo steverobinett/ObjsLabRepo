@@ -1,3 +1,11 @@
+//Sandbox area
+var person = {
+  name: "Malcolm Reynolds",
+  vessel : "Sernity"
+}
+
+document.getElementById("sandbox").textContent = person.name;
+
 // Joke Object
 var joke = {
   categories: [],
